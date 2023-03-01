@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.3",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0"
   },

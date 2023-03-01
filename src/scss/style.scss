@@ -1,24 +1,33 @@
 @import "fonts";
+@import "variables";
+@import "header";
+@import "footer";
 
 body {
-  font-family: Montserrat;
-  background-color: aqua;
-  span {
-    color: red;
-  }
-  // background: url("@img/leopard.jpg") 0 0 no-repeat;
+  margin: 0;
+  font-family: "Montserrat";
 }
 
-@media (max-width: 768px) {
-  body {
-    span {
-      color: rosybrown;
-    }
-  }
+.container {
+  max-width: $content-width;
+  margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  body {
-    // background-color: green;
-  }
+.main-wrapp {
+  padding: 20px;
+  background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(0, 0, 0, 0.8)),
+    url(@img/bg_wow.jpg) no-repeat 50% / cover;
+  // filter: brightness(40%);
+  color: white;
+}
+
+.title {
+  margin: 0;
+  color: $link-hover-color;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
