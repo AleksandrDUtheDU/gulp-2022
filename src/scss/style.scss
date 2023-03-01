@@ -1,0 +1,24 @@
+@import "fonts";
+
+body {
+  font-family: Montserrat;
+  background-color: aqua;
+  span {
+    color: red;
+  }
+  // background: url("@img/leopard.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 768px) {
+  body {
+    span {
+      color: rosybrown;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    // background-color: green;
+  }
+}
