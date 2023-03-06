@@ -1,5 +1,8 @@
 import * as flsFunction from "./modules/function.js";
+import { burger } from "./modules/burger.js";
 
 flsFunction.isWebp()
 
-console.log('привет')
+document.addEventListener("DOMContentLoaded", function () {
+    burger()
+})
